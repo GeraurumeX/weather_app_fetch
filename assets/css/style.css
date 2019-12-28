@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/mostly-cloudy.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    transition: background-image 0.4s ease-in-out;
+}
+.weather {
+    width: 75%;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #f2f2f2;
+    margin: 20% auto;
+}
+.weather .area {
+    font-size: 1.8rem;
+    margin: 20px 20px;
+}
+.weather .temp {
+    width: 40%;
+    height: 40%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather .temp .forcast h2 {
+    font-size: 1.3rem;
+}
+.weather .temp .forcast--temp {
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;
+}
+.weather .temp .forcast--temp #temp {
+    font-size: 2rem;
+}
+.weather .temp .forcast--temp #degree {
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.weather .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+}

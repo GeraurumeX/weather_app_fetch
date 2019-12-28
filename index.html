@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Weather Forcaster</title>
+    </head>
+    <body id="main">
+        <section class="weather">
+            <h1 class="area">TimeZone</h1>
+            <div class="temp">
+                <div class="forcast">
+                    <h2>Current Temperature:</h2>
+                    <div class="forcast--temp">
+                        <p id="temp">46.57</p>
+                        <p id="degree">F</p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <canvas id="icon" width="128" height="128"></canvas>
+                </div>
+            </div>
+            <div class="description">
+                <p id="desc">
+                    Mostly Cloud
+                </p>
+            </div>
+        </section>
+        <script src="assets/js/skycons.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
